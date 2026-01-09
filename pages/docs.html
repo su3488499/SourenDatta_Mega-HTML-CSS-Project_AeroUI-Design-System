@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AeroUI — Docs</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/tokens.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/utilities.css" />
+  <link rel="stylesheet" href="../css/pages/docs.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">AeroUI</span>
+      </a>
+
+      <input class="nav__toggle" type="checkbox" id="navToggle" />
+      <label class="nav__btn" for="navToggle" aria-label="Toggle menu">
+        <span class="burger" aria-hidden="true"><span></span><span></span><span></span></span>
+      </label>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="components.html">Components</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="docs.html">Docs</a>
+        <a class="btn btn--primary" href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="section" style="padding-bottom:0;">
+      <div class="container stack">
+        <h1 class="glow-cyan">Docs</h1>
+        <p class="muted">Sticky TOC + code blocks + callouts. All HTML + CSS.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:24px;">
+      <div class="container docs">
+        <aside class="toc">
+          <strong class="glow-pink">On this page</strong>
+          <a href="#tokens">Design tokens</a>
+          <a href="#layout">Layout system</a>
+          <a href="#components">Components</a>
+          <a href="#a11y">Accessibility</a>
+        </aside>
+
+        <article class="stack">
+          <div class="card">
+            <div class="card__body stack">
+              <h2 id="tokens">Design tokens</h2>
+              <p>Tokens live in <code>css/tokens.css</code> and power consistent spacing, type, and neon colors.</p>
+              <pre><code>:root{
+  --neon-cyan:#20f7ff;
+  --space-5:24px;
+  --r-lg:22px;
+}</code></pre>
+              <div class="callout">
+                <strong class="glow-cyan">Tip:</strong>
+                <p class="muted">Use tokens everywhere — don’t hardcode random colors.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body stack">
+              <h2 id="layout">Layout system</h2>
+              <p>Use <code>.container</code> + <code>.grid</code> utilities for responsive layouts.</p>
+              <pre><code>&lt;div class="container"&gt;
+  &lt;div class="grid grid-3"&gt;...&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+              <div class="callout callout--warn">
+                <strong style="color:var(--warn);">Note:</strong>
+                <p class="muted">On small screens, grids auto collapse to one column.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body stack">
+              <h2 id="components">Components</h2>
+              <p>Buttons, cards, badges, forms, and tables live in <code>css/components.css</code>.</p>
+              <div class="split">
+                <a class="btn btn--primary" href="components.html">Open Components</a>
+                <span class="badge badge--purple">Reusable</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body stack">
+              <h2 id="a11y">Accessibility</h2>
+              <p>Use semantic HTML first. Prefer native elements like <code>&lt;details&gt;</code> for accordions.</p>
+              <div class="acc">
+                <details open>
+                  <summary>Why use details/summary?</summary>
+                  <div class="acc__content">
+                    It’s keyboard accessible by default and needs no JavaScript.
+                  </div>
+                </details>
+                <details>
+                  <summary>Focus styling?</summary>
+                  <div class="acc__content">
+                    Inputs and buttons use visible focus rings for keyboard users.
+                  </div>
+                </details>
+              </div>
+            </div>
+          </div>
+
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container split">
+      <small>© AeroUI</small>
+      <small><a href="../index.html">Home</a> · <a href="components.html">Components</a></small>
+    </div>
+  </footer>
+</body>
+</html>

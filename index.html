@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AeroUI — Neon Gaming Design System</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/pages/home.css" />
+</head>
+<body>
+  <a class="pill" href="#main" style="position:absolute;left:-999px;top:10px;">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">AeroUI</span>
+        <span class="badge badge--pink">NEON</span>
+      </a>
+
+      <input class="nav__toggle" type="checkbox" id="navToggle" />
+      <label class="nav__btn" for="navToggle" aria-label="Toggle menu">
+        <span class="burger" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </label>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="pages/components.html">Components</a>
+        <a href="pages/pricing.html">Pricing</a>
+        <a href="pages/dashboard.html">Dashboard</a>
+        <a href="pages/docs.html">Docs</a>
+        <a class="btn btn--primary" href="pages/login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="stack">
+          <div class="pill">
+            <span class="badge badge--cyan">CSS-ONLY</span>
+            <span class="muted">Design system + multi-page site</span>
+          </div>
+
+          <h1 class="hero__title">Build Neon UIs like a boss.</h1>
+          <p>
+            AeroUI is a gaming-style design system built with semantic HTML and modern CSS:
+            tokens, components, responsive layouts, and accessible patterns — no JavaScript required.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="pages/components.html">Explore Components</a>
+            <a class="btn btn--ghost" href="pages/docs.html">Read Docs</a>
+          </div>
+
+          <div class="spacer-4"></div>
+
+          <div class="grid grid-3">
+            <div class="card">
+              <div class="card__body">
+                <div class="badge badge--cyan">Tokens</div>
+                <div class="spacer-2"></div>
+                <p>CSS variables for color, spacing, radii, shadows, and fluid typography.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__body">
+                <div class="badge badge--pink">Components</div>
+                <div class="spacer-2"></div>
+                <p>Buttons, cards, tables, forms, badges, and CSS-only navigation.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__body">
+                <div class="badge badge--purple">Layouts</div>
+                <div class="spacer-2"></div>
+                <p>Dashboard, docs with sticky TOC, pricing tables, responsive grids.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__panel scanlines">
+          <div class="split">
+            <h3 class="glow-cyan">Live Stats</h3>
+            <span class="badge badge--warn">BETA</span>
+          </div>
+          <div class="spacer-2"></div>
+          <p class="muted">“Fake data” preview layout to show styling.</p>
+
+          <div class="kpi">
+            <div class="chip">
+              <strong class="glow-cyan">+72%</strong>
+              <small>UI Speed</small>
+            </div>
+            <div class="chip">
+              <strong class="glow-pink">4.9</strong>
+              <small>Style Score</small>
+            </div>
+            <div class="chip">
+              <strong class="glow-purple">12</strong>
+              <small>Components</small>
+            </div>
+          </div>
+
+          <hr class="sep" />
+
+          <div class="acc">
+            <details open>
+              <summary>Why no JavaScript?</summary>
+              <div class="acc__content">
+                Because advanced HTML/CSS alone can handle layout, accessibility,
+                theming, and many UI patterns (like this accordion) using native elements.
+              </div>
+            </details>
+            <details>
+              <summary>Is it responsive?</summary>
+              <div class="acc__content">
+                Yes — grids collapse, menu becomes mobile, and typography scales with <code>clamp()</code>.
+              </div>
+            </details>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <h2 class="glow-pink">Neon-ready layouts</h2>
+          <a class="btn btn--ghost" href="pages/dashboard.html">Open Dashboard</a>
+        </div>
+        <div class="spacer-4"></div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <div class="card__body">
+              <div class="card__title">
+                <h3>Dashboard shell</h3>
+                <span class="badge badge--cyan">GRID</span>
+              </div>
+              <div class="spacer-2"></div>
+              <p>Sticky sidebar + cards + tables designed for internal tools.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__body">
+              <div class="card__title">
+                <h3>Docs & components</h3>
+                <span class="badge badge--purple">A11Y</span>
+              </div>
+              <div class="spacer-2"></div>
+              <p>Docs layout with sticky TOC + component library page.</p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="sep" />
+
+        <div class="split">
+          <p class="muted">Next: Add screenshots to README for GitHub polish.</p>
+          <a class="btn btn--primary" href="pages/pricing.html">See Pricing Layout</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container split">
+      <small>© AeroUI — built with HTML + CSS only</small>
+      <small>
+        <a href="pages/components.html">Components</a> ·
+        <a href="pages/docs.html">Docs</a> ·
+        <a href="pages/login.html">Login</a>
+      </small>
+    </div>
+  </footer>
+</body>
+</html>

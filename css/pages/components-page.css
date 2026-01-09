@@ -1,0 +1,16 @@
+.comp-grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: var(--space-5);
+}
+@media (max-width: 900px){ .comp-grid{ grid-template-columns: 1fr; } }
+
+.swatch{
+  display:flex; gap: 10px; flex-wrap: wrap;
+}
+.swatch span{
+  width: 40px; height: 40px;
+  border-radius: 14px;
+  border: 1px solid var(--stroke);
+  box-shadow: var(--shadow-soft);
+}

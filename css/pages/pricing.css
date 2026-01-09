@@ -1,0 +1,31 @@
+.pricing__hero h1{
+  background: linear-gradient(90deg, var(--neon-lime), var(--neon-cyan), var(--neon-pink));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.plan{
+  position: relative;
+}
+.plan--featured{
+  border-color: rgba(32,247,255,.35);
+  box-shadow: var(--shadow-soft), var(--shadow-glow-cyan);
+}
+.plan__price{
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: -.02em;
+}
+.plan__list li{
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  color: var(--text-1);
+}
+.plan__list li:last-child{ border-bottom: none; }
+
+.compare{
+  overflow:auto;
+}
+.compare .table{
+  min-width: 720px;
+}

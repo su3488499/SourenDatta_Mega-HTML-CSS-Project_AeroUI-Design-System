@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AeroUI — Components</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/tokens.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/utilities.css" />
+  <link rel="stylesheet" href="../css/pages/components-page.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">AeroUI</span>
+      </a>
+
+      <input class="nav__toggle" type="checkbox" id="navToggle" />
+      <label class="nav__btn" for="navToggle" aria-label="Toggle menu">
+        <span class="burger" aria-hidden="true"><span></span><span></span><span></span></span>
+      </label>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="components.html">Components</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="docs.html">Docs</a>
+        <a class="btn btn--primary" href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="container stack">
+        <h1 class="glow-pink">Components Library</h1>
+        <p class="muted">A showcase page that proves your CSS is reusable and scalable.</p>
+
+        <div class="comp-grid">
+          <div class="card">
+            <div class="card__body stack">
+              <h2>Buttons</h2>
+              <div class="split">
+                <button class="btn btn--primary" type="button">Primary</button>
+                <button class="btn" type="button">Default</button>
+                <button class="btn btn--ghost" type="button">Ghost</button>
+                <button class="btn btn--danger" type="button">Danger</button>
+              </div>
+              <small class="muted">Hover + active states included.</small>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body stack">
+              <h2>Badges</h2>
+              <div class="split">
+                <span class="badge badge--cyan">Cyan</span>
+                <span class="badge badge--pink">Pink</span>
+                <span class="badge badge--purple">Purple</span>
+                <span class="badge badge--warn">Warn</span>
+              </div>
+              <small class="muted">Use badges for status labels.</small>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body stack">
+              <h2>Forms</h2>
+              <div class="field">
+                <span class="label">Handle</span>
+                <input class="input" placeholder="NeonPilot_07" />
+              </div>
+              <div class="field">
+                <span class="label">Loadout</span>
+                <select class="select">
+                  <option>Plasma</option>
+                  <option>Arc</option>
+                  <option>Void</option>
+                </select>
+              </div>
+              <div class="field">
+                <span class="label">Notes</span>
+                <textarea class="textarea" placeholder="Write a quick note..."></textarea>
+              </div>
+              <button class="btn btn--primary" type="button">Submit</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body stack">
+              <h2>Tables</h2>
+              <table class="table">
+                <thead><tr><th>Item</th><th>Rarity</th><th>Power</th></tr></thead>
+                <tbody>
+                  <tr><td>Pulse Blade</td><td>Epic</td><td>84</td></tr>
+                  <tr><td>Neon Shield</td><td>Rare</td><td>73</td></tr>
+                  <tr><td>Arc Helm</td><td>Legend</td><td>91</td></tr>
+                </tbody>
+              </table>
+              <small class="muted">Hover row highlight included.</small>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body stack">
+              <h2>Colors</h2>
+              <div class="swatch">
+                <span style="background:var(--neon-cyan)"></span>
+                <span style="background:var(--neon-pink)"></span>
+                <span style="background:var(--neon-purple)"></span>
+                <span style="background:var(--neon-lime)"></span>
+              </div>
+              <small class="muted">Driven by tokens.css</small>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body stack">
+              <h2>Accordion</h2>
+              <div class="acc">
+                <details open>
+                  <summary>CSS-only interaction</summary>
+                  <div class="acc__content">Uses native <code>&lt;details&gt;</code> for accessibility.</div>
+                </details>
+                <details>
+                  <summary>Why it’s advanced</summary>
+                  <div class="acc__content">Shows component architecture and consistent styling across pages.</div>
+                </details>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container split">
+      <small>© AeroUI</small>
+      <small><a href="../index.html">Home</a> · <a href="docs.html">Docs</a></small>
+    </div>
+  </footer>
+</body>
+</html>

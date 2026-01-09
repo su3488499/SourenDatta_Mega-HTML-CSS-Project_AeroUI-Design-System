@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AeroUI — Pricing</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/tokens.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/utilities.css" />
+  <link rel="stylesheet" href="../css/pages/pricing.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">AeroUI</span>
+      </a>
+
+      <input class="nav__toggle" type="checkbox" id="navToggle" />
+      <label class="nav__btn" for="navToggle" aria-label="Toggle menu">
+        <span class="burger" aria-hidden="true"><span></span><span></span><span></span></span>
+      </label>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="components.html">Components</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="docs.html">Docs</a>
+        <a class="btn btn--primary" href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="container pricing__hero stack">
+        <h1>Choose your neon tier.</h1>
+        <p class="muted">Pricing layout demo: cards + comparison table (responsive scroll).</p>
+
+        <div class="spacer-4"></div>
+
+        <div class="grid grid-3">
+          <div class="card plan">
+            <div class="card__body stack">
+              <div class="badge badge--purple">Starter</div>
+              <h3>Solo Raider</h3>
+              <div class="plan__price">$0</div>
+              <p class="muted">Perfect for personal UI experiments.</p>
+              <ul class="plan__list">
+                <li>Tokens + base styles</li>
+                <li>Core components</li>
+                <li>1 page template</li>
+              </ul>
+              <a class="btn btn--ghost" href="components.html">View Components</a>
+            </div>
+          </div>
+
+          <div class="card plan plan--featured">
+            <div class="card__body stack">
+              <div class="badge badge--cyan">Most Popular</div>
+              <h3>Squad Operator</h3>
+              <div class="plan__price">$9</div>
+              <p class="muted">Best for portfolio + multi-page demos.</p>
+              <ul class="plan__list">
+                <li>All components + layouts</li>
+                <li>Docs + dashboard shells</li>
+                <li>Neon presets</li>
+              </ul>
+              <a class="btn btn--primary" href="dashboard.html">Open Dashboard</a>
+            </div>
+          </div>
+
+          <div class="card plan">
+            <div class="card__body stack">
+              <div class="badge badge--pink">Pro</div>
+              <h3>Guild Architect</h3>
+              <div class="plan__price">$29</div>
+              <p class="muted">For full design system expansion.</p>
+              <ul class="plan__list">
+                <li>Theme variants</li>
+                <li>Accessibility checklist</li>
+                <li>Component guidelines</li>
+              </ul>
+              <a class="btn btn--ghost" href="docs.html">Read Docs</a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="sep" />
+
+        <div class="card compare">
+          <div class="card__body stack">
+            <div class="split">
+              <h2>Comparison</h2>
+              <span class="badge badge--warn">Responsive table</span>
+            </div>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Starter</th>
+                  <th>Squad</th>
+                  <th>Pro</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Tokens + reset</td><td>✓</td><td>✓</td><td>✓</td></tr>
+                <tr><td>Components library</td><td>✓</td><td>✓</td><td>✓</td></tr>
+                <tr><td>Dashboard layout</td><td>–</td><td>✓</td><td>✓</td></tr>
+                <tr><td>Docs layout</td><td>–</td><td>✓</td><td>✓</td></tr>
+                <tr><td>Theme variants</td><td>–</td><td>–</td><td>✓</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container split">
+      <small>© AeroUI</small>
+      <small><a href="../index.html">Home</a> · <a href="components.html">Components</a></small>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.muted{ color: var(--text-2); }
+.glow-cyan{ text-shadow: 0 0 14px rgba(32,247,255,.35); }
+.glow-pink{ text-shadow: 0 0 14px rgba(255,43,214,.30); }
+.glow-purple{ text-shadow: 0 0 14px rgba(139,92,255,.28); }
+
+.pill{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--stroke);
+  background: rgba(255,255,255,.04);
+}
+
+.spacer-2{ height: var(--space-2); }
+.spacer-4{ height: var(--space-4); }
+.spacer-6{ height: var(--space-6); }
+.spacer-8{ height: var(--space-8); }
